@@ -1,8 +1,16 @@
 package javacode.springconcepts.dependencyinjection.contructor;
 
-public class ServiceB {
+public class ServiceB implements Service{
+
+	@Override
 	public String getInfo() {
-		return "info Class B";
+		// TODO Auto-generated method stub
+		return "Service B info";
 	}
+	
+	
+	/*public String getInfo() {
+		return "info Class B";
+	}*/
 
 }
