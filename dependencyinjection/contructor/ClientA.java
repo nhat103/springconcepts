@@ -9,7 +9,7 @@ public class ClientA implements Client {
 	}
 
 	@Override
-	public void doSomthing() {
+	public void doSomething() {
 		String info = service.getInfo();
 
 	}

@@ -1,6 +1,5 @@
 package javacode.springconcepts.dependencyinjection.contructor;
 
-
 public class Myclass {
 
 	MyDependency myDependency;// reference variable
@@ -13,19 +12,18 @@ public class Myclass {
 
 	public Myclass() {
 	}
-	
+
 	public void print() {
 		myDependency.printDay();
 	}
-	
+
 	public static void main(String[] args) {
-		
+
 		Myclass myclass = new Myclass();
-		
-		//myclass.mydien.printDay();
+
+		// myclass.mydien.printDay();
 		myclass.print();
-		
+
 	}
-	
 
 }
