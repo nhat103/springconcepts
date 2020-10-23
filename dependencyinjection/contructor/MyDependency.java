@@ -16,9 +16,9 @@ public class MyDependency {
 	public void printDay() {
 		System.out.println("nhat");
 	}
-	
+
 	public static void main(String[] args) {
-		
+
 	}
 
 }

@@ -1,6 +1,7 @@
 package javacode.springconcepts.dependencyinjection.contructor;
 
-public interface Client {
-	void doSomething();
+public interface Animalinter {
+
+	String infoAniamal();
 
 }
